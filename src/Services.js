@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 class Services extends Component {
     render(){
         return(
-            <section className="section section-lg section-shaped">
+            <section className="section section-lg section-shaped pt-lg-0 mt--200">
                 <div className="container">
-                    <div className="row mb-4">
-                        <div className="col-12">
-                            <h1 className="text-center display-3">Services
-                            <span className="text-success text-center">Everything you need for your business online</span></h1>
-                        </div>
-                    </div>
+                    {/*<div className="row mb-4">*/}
+                        {/*<div className="col-12">*/}
+                            {/*<h1 className="text-center display-3">Services*/}
+                            {/*<span className="text-success text-center">Everything you need for your business online</span></h1>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="card shadow">

@@ -5,7 +5,7 @@ class Hero extends Component{
         return(
             <div className="position-relative">
 
-                <section className="section section-lg section-hero section-shaped">
+                <section className="section section-lg section-hero section-shaped pb-250">
 
                     <div className="shape shape-style-1 shape-primary">
                         <span className="span-150"></span>
@@ -22,12 +22,13 @@ class Hero extends Component{
                     <div className="container shape-container d-flex align-items-center py-lg">
                         <div className="col px-0">
                             <div className="row align-items-center justify-content-center">
-                                <div className="col-lg-6 text-center">
-                                        <p className="lead text-white">Agency level online marketing and web development with a personal touch.</p>
-
+                                <div className="col-lg-12 text-center">
+                                        <h2 className="font-weight-bold display-3 text-white">Agency level online marketing and web development with a personal touch.</h2>
                                         <div className="mt-5">
-                                            <small className="text-white font-weight-bold mb-0 mr-2">Currently not accepting new clients
-                                            </small>
+                                            <span className="alert alert-danger" role="alert">
+                                                <span className="alert-inner--icon"><i className="fas fa-box-full"></i></span>
+                                                Currently not accepting new clients
+                                            </span>
                                         </div>
                                 </div>
                             </div>

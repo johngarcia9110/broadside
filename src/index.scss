@@ -6,3 +6,23 @@
   margin-bottom: 1rem;
   display: block;
 }
+
+.modal{
+  display: block;
+  .modal-background{
+    background: rgba(0, 0, 0, 0.46);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.section-hero .logo{
+  max-width: 400px;
+}
+
+.navbar-brand img{
+  height: 60px;
+}
