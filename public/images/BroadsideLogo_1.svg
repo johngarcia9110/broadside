@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 649.5 159.9">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 109px;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 46px;
+        letter-spacing: -0.06em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>BroadsideLogo_1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <text class="cls-1" transform="translate(38.5 92.7)">Broadside</text>
+      <text class="cls-2" transform="translate(377.7 139.1)">T<tspan class="cls-3" x="25.3" y="0">echnology</tspan></text>
+      <path class="cls-4" d="M116,107.1H0a32,32,0,0,0,32,32H84A32,32,0,0,0,116,107.1Z"/>
+      <path class="cls-4" d="M130.5,107.1c0,17.7-9.8,30-18.5,32H367v-32Z"/>
+    </g>
+  </g>
+</svg>

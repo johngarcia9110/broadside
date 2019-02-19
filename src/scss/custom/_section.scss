@@ -21,6 +21,12 @@
 
 // Hero sections
 .section-hero {
+    padding-top: 12rem;
+    .shape-container{
+        h2{
+            color: #2d4663;
+        }
+    }
     @include media-breakpoint-up(md) {
         min-height: 500px;
     }
@@ -69,7 +75,11 @@
             }
         }
     }
-
+    .shape-image{
+        background: url(/images/hero1.jpg);
+        background-size: cover;
+        background-position: center left;
+    }
     .shape-skew {
         transform: skewY(-4deg);
         transform-origin: 0;

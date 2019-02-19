@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component{
     render(){
         return(
-            <section id="about" className="section bg-secondary">
+            <section id="about" className="section">
                 <div className="container">
                     <div className="row row-grid align-items-center">
                         <div className="col-md-6">
@@ -17,16 +17,15 @@ class About extends Component{
                                                      className="fill-default"></polygon>
                                         </svg>
                                         <h4 className="display-3 font-weight-bold text-white">Based In San Francisco</h4>
-                                        <p className="lead text-italic text-white">Created, tested and proven marketing and development techniques in the Bay Area.</p>
+                                        <p className="lead text-italic text-white">Marketing and development techniques tested and proven in the Bay Area.</p>
                                     </blockquote>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="pl-md-5">
                                 <h3 className="font-weight-bold">About</h3>
-                                <p className="lead">Broadside Technology is the result of over 4 years of agency-level marketing and development experience in the Bay Area.</p>
-                                <p>Historically the term "broadside" refers to a nearly simultaneous firing of all the guns from one side of a warship.</p>
-                                <p>We like to think of ourselves as your marketing and development "warship", we come into every project with everything we've got.</p>
+                                <p className="lead">Historically the term "broadside" refers to a nearly simultaneous firing of all the guns from one side of a warship.</p>
+                                <p className="lead">We like to think of ourselves as your marketing and development "warship", we come into every project with everything we've got.</p>
                             </div>
                         </div>
                     </div>

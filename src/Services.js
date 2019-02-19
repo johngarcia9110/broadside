@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Services extends Component {
     render(){
         return(
-            <section className="section section-lg section-shaped pt-lg-0 mt--200">
+            <section className="section section-lg section-shaped pt-lg-0 mt--70">
                 <div className="container">
                     {/*<div className="row mb-4">*/}
                         {/*<div className="col-12">*/}
@@ -38,6 +38,17 @@ class Services extends Component {
                                     <p className="lead text-center">Don't worry about falling behind. Keep your website secure, up to date, and running smoothly.</p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className="row pt-100 justify-content-center">
+                        <div className="col-12 text-center pb-5">
+                            <h3>Clients who trust Broadside Technology</h3>
+                        </div>
+                        <div className="col-lg-4">
+                            <img src="https://www.commercial-carpetcushion.com/files/home/tredmor-logo.svg" alt="Tred-MOR logo"/>
+                        </div>
+                        <div className="col-lg-4">
+                            <img src="https://www.spayaz.com/wp-content/uploads/2017/03/SNCBanner-Optimized.png" alt="Spayaz logo"/>
                         </div>
                     </div>
                 </div>

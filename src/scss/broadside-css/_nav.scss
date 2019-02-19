@@ -1,0 +1,21 @@
+$dark-blue: #1d3155;
+
+.navbar-transparent {
+  .navbar-brand{
+    img{
+      height: 100px;
+    }
+  }
+  .navbar-nav {
+    .nav-link{
+      color: $dark-blue;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      &:hover{
+        color:$dark-blue;
+        font-weight: bold;
+      }
+    }
+  }
+}
+

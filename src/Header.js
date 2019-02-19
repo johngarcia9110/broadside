@@ -8,7 +8,7 @@ class Header extends Component{
                      className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
                     <div className="container">
                         <a className="navbar-brand mr-lg-5" href="./index.html">
-                            <img src="./images/logo.png" alt="Broadside Technology Logo"/>
+                            <img src="./images/logo-dark.svg" alt="Broadside Technology Logo"/>
                         </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
@@ -20,7 +20,7 @@ class Header extends Component{
                                 <div className="row">
                                     <div className="col-6 collapse-brand">
                                         <a href="./index.html">
-                                            <img src="./images/Broadside-Technology.png" alt="Broadside Technology Logo"/>
+                                            <img src="./images/BroadsideLogo-new.svg" alt="Broadside Technology Logo"/>
                                         </a>
                                     </div>
                                     <div className="col-6 collapse-close">
@@ -43,7 +43,7 @@ class Header extends Component{
                             </ul>
                             <ul className="navbar-nav align-items-lg-center ml-lg-auto">
                                 <li className="nav-item d-none d-lg-block ml-lg-4">
-                                    <button type="button" onClick={this.props.toggleContact} className="btn btn-block btn-default" data-toggle="modal" data-target="modal-contact">Get In Touch</button>
+                                    <button type="button" onClick={this.props.toggleContactModal} className="btn btn-block btn-default" data-toggle="modal" data-target="modal-contact">Get In Touch</button>
                                 </li>
                             </ul>
                         </div>

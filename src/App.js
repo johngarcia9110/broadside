@@ -8,18 +8,27 @@ import About from './About.js';
 import ContactCTA from './Contact-CTA.js';
 
 class App extends Component {
+    state = {
+        contactModalOpen : false,
+    };
 
+    toggleContactModal = () => {
+        console.log('testing');
+        this.setState(()=> ({
+            contactModalOpen : !this.state.contactModalOpen,
+        }))
+    };
 
   render() {
     return (
       <div className="App">
-        <Header toggleContact={this.toggleContactModal}></Header>
+        <Header toggleContactModal={this.toggleContactModal} ></Header>
         <main>
           <Hero></Hero>
           <Services></Services>
             <About></About>
         </main>
-        <Footer></Footer>
+        <Footer contactModalOpen={this.state.contactModalOpen} toggleContactModal={this.toggleContactModal}></Footer>
       </div>
     );
   }

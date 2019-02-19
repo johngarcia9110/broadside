@@ -7,7 +7,7 @@ class Hero extends Component{
 
                 <section className="section section-lg section-hero section-shaped pb-250">
 
-                    <div className="shape shape-style-1 shape-primary">
+                    <div className="shape  shape-image">
                         <span className="span-150"></span>
                         <span className="span-50"></span>
                         <span className="span-50"></span>
@@ -21,15 +21,9 @@ class Hero extends Component{
                     </div>
                     <div className="container shape-container d-flex align-items-center py-lg">
                         <div className="col px-0">
-                            <div className="row align-items-center justify-content-center">
-                                <div className="col-lg-12 text-center">
-                                        <h2 className="font-weight-bold display-3 text-white">Agency level online marketing and web development with a personal touch.</h2>
-                                        <div className="mt-5">
-                                            <span className="alert alert-danger" role="alert">
-                                                <span className="alert-inner--icon"><i className="fas fa-box-full"></i></span>
-                                                Currently not accepting new clients
-                                            </span>
-                                        </div>
+                            <div className="row align-items-center">
+                                <div className="col-lg-8 text-left">
+                                        <h2 className="font-weight-bold display-3">Performance focused marketing and web development</h2>
                                 </div>
                             </div>
                         </div>
