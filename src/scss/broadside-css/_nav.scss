@@ -1,9 +1,13 @@
 $dark-blue: #1d3155;
 
+.navbar-toggler{
+  background: $dark-blue;
+}
+
 .navbar-transparent {
   .navbar-brand{
     img{
-      height: 100px;
+      max-width: 250px;
     }
   }
   .navbar-nav {

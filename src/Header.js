@@ -8,7 +8,7 @@ class Header extends Component{
                      className="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom">
                     <div className="container">
                         <a className="navbar-brand mr-lg-5" href="./index.html">
-                            <img src="./images/logo-dark.svg" alt="Broadside Technology Logo"/>
+                            <img src="./images/svg/logo-final.svg" alt="Broadside Technology Logo"/>
                         </a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"

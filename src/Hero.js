@@ -7,17 +7,7 @@ class Hero extends Component{
 
                 <section className="section section-lg section-hero section-shaped pb-250">
 
-                    <div className="shape  shape-image">
-                        <span className="span-150"></span>
-                        <span className="span-50"></span>
-                        <span className="span-50"></span>
-                        <span className="span-75"></span>
-                        <span className="span-100"></span>
-                        <span className="span-75"></span>
-                        <span className="span-50"></span>
-                        <span className="span-100"></span>
-                        <span className="span-50"></span>
-                        <span className="span-100"></span>
+                    <div className="shape shape-image">
                     </div>
                     <div className="container shape-container d-flex align-items-center py-lg">
                         <div className="col px-0">

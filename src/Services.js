@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Services extends Component {
     render(){
         return(
-            <section className="section section-lg section-shaped pt-lg-0 mt--70">
-                <div className="container">
+            <section id="intro-section" className="section section-lg section-shaped pt-lg-0 mt--70">
+                <div className="container card-container">
                     {/*<div className="row mb-4">*/}
                         {/*<div className="col-12">*/}
                             {/*<h1 className="text-center display-3">Services*/}
@@ -12,7 +12,7 @@ class Services extends Component {
                         {/*</div>*/}
                     {/*</div>*/}
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mb-4 mb-lg-0">
                             <div className="card shadow">
                                 <div className="card-body">
                                     <img className="icon-img" src="./images/Money-Cloud-1.png" alt="Money Cloud"/>
@@ -21,7 +21,7 @@ class Services extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mb-4 mb-lg-0">
                             <div className="card shadow">
                                 <div className="card-body">
                                     <img className="icon-img" src="./images/Devices-1.png" alt="Devices"/>
@@ -30,7 +30,7 @@ class Services extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 mb-4 mb-lg-0">
                             <div className="card shadow">
                                 <div className="card-body">
                                     <img className="icon-img" src="./images/Maintenance-1.png" alt="Maintenance"/>
@@ -40,15 +40,17 @@ class Services extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="container">
                     <div className="row pt-100 justify-content-center">
-                        <div className="col-12 text-center pb-5">
+                        <div className="col-12 text-center pb-5 pt-4">
                             <h3>Clients who trust Broadside Technology</h3>
                         </div>
-                        <div className="col-lg-4">
-                            <img src="https://www.commercial-carpetcushion.com/files/home/tredmor-logo.svg" alt="Tred-MOR logo"/>
+                        <div className="col-lg-4 mb-4">
+                            <img className="clientIcon" src="https://www.commercial-carpetcushion.com/files/home/tredmor-logo.svg" alt="Tred-MOR logo"/>
                         </div>
                         <div className="col-lg-4">
-                            <img src="https://www.spayaz.com/wp-content/uploads/2017/03/SNCBanner-Optimized.png" alt="Spayaz logo"/>
+                            <img className="clientIcon" src="https://www.spayaz.com/wp-content/uploads/2017/03/SNCBanner-Optimized.png" alt="Spayaz logo"/>
                         </div>
                     </div>
                 </div>

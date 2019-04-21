@@ -1,0 +1,17 @@
+#intro-section{
+  @include media-breakpoint-down(md){
+    padding-top: 0rem;
+  }
+  .card-container{
+    @include media-breakpoint-down(md){
+      margin-top: -5rem;
+      position: relative;
+      z-index: 99;
+    }
+  }
+  .clientIcon{
+    max-width: 250px;
+    margin: auto;
+    display: block;
+  }
+}
