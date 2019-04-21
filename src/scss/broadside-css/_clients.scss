@@ -1,0 +1,15 @@
+#clients{
+  padding-bottom: 6rem;
+  @include media-breakpoint-down(md){
+    padding-bottom: 1rem;
+  }
+  h3{
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .clientIcon{
+    max-width: 250px;
+    margin: auto;
+    display: block;
+  }
+}

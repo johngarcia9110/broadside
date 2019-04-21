@@ -1,13 +1,22 @@
 $dark-blue: #1d3155;
 
-.navbar-toggler{
-  background: $dark-blue;
-}
+
 
 .navbar-transparent {
+  @include media-breakpoint-down(md){
+    background: white;
+    border-bottom: 1px solid #e8e5e5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
   .navbar-brand{
     img{
       max-width: 250px;
+      @include media-breakpoint-down(md){
+        max-width: 200px;
+      }
     }
   }
   .navbar-nav {

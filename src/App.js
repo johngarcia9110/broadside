@@ -4,6 +4,7 @@ import Hero from './Hero.js';
 import Footer from './Footer.js';
 import Services from './Services.js';
 import ContactModal from './ContactModal.js';
+import Clients from './Clients.js';
 import About from './About.js';
 import ContactCTA from './Contact-CTA.js';
 
@@ -26,6 +27,7 @@ class App extends Component {
         <main>
           <Hero></Hero>
           <Services></Services>
+            <Clients/>
             <About></About>
         </main>
         <Footer contactModalOpen={this.state.contactModalOpen} toggleContactModal={this.toggleContactModal}></Footer>

@@ -41,19 +41,7 @@ class Services extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container">
-                    <div className="row pt-100 justify-content-center">
-                        <div className="col-12 text-center pb-5 pt-4">
-                            <h3>Clients who trust Broadside Technology</h3>
-                        </div>
-                        <div className="col-lg-4 mb-4">
-                            <img className="clientIcon" src="https://www.commercial-carpetcushion.com/files/home/tredmor-logo.svg" alt="Tred-MOR logo"/>
-                        </div>
-                        <div className="col-lg-4">
-                            <img className="clientIcon" src="https://www.spayaz.com/wp-content/uploads/2017/03/SNCBanner-Optimized.png" alt="Spayaz logo"/>
-                        </div>
-                    </div>
-                </div>
+
             </section>
         )
     }

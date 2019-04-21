@@ -23,7 +23,7 @@ class About extends Component{
                         </div>
                         <div className="col-md-6">
                             <div className="pl-md-5">
-                                <h3 className="font-weight-bold">About</h3>
+                                <h3 className="font-weight-bold">ABOUT US:</h3>
                                 <p className="lead">Historically the term "broadside" refers to a nearly simultaneous firing of all the guns from one side of a warship.</p>
                                 <p className="lead">We like to think of ourselves as your marketing and development "warship", we come into every project with everything we've got.</p>
                             </div>

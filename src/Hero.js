@@ -13,7 +13,7 @@ class Hero extends Component{
                         <div className="col px-0">
                             <div className="row align-items-center">
                                 <div className="col-lg-8 text-left">
-                                        <h2 className="font-weight-bold display-3">Performance focused marketing and web development</h2>
+                                    <h2 className="font-weight-bold display-3">Performance focused <span>marketing</span> &amp; <span>web development</span></h2>
                                 </div>
                             </div>
                         </div>

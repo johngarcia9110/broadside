@@ -1,0 +1,5 @@
+#about{
+  @include media-breakpoint-down(md){
+    padding-bottom: 1rem;
+  }
+}
